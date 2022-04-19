@@ -3,6 +3,7 @@ multiply = int(number) * 5
 tries = 0
 
 def outoftries():
+    # After three tries, it will get this message
     print("Sorry, you've got ran out of tries.")
 
 print(multiply)
@@ -16,6 +17,7 @@ else:
     print("That's not the answer. Please try again.")
     tries = tries + 1
 
+    # It will prompt it again
     answer = input("Enter your answer: ")
 
     if answer == "5":
@@ -24,6 +26,7 @@ else:
         print("That's not the answer. Please try again.")
         tries = tries + 1
 
+        # It will prompt it again
         answer = input("Enter your answer: ")
 
         if answer == "5":
